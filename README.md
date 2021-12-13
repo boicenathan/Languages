@@ -12,6 +12,8 @@ many games as the user specifies.  Once complete it will display the results of
 each game in the console.  If using the extension specified below, you can also 
 see the runtime.
 
+By default each program will run 5 games of 1,000,000 'flips' each game.
+
 ## Setup
 If you're using VSCode you can easily compile, if need be, and run each of the 
 files.  To do this just install the 
