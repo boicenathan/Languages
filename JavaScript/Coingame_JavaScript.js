@@ -15,7 +15,6 @@ function coingame(flips, gamenum) {
             tails++;
         }
     }
-
     // Return the results
     return `Game: ${gamenum + 1} | Heads: ${heads.toLocaleString()} | Tails ${(tails.toLocaleString())} | Total: ${(heads + tails).toLocaleString()}`
 }
