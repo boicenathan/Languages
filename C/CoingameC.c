@@ -10,7 +10,7 @@ int main() {
     srand(time(NULL));
 
     // Start the games
-    printf("C\n");
+    printf("< C >\n");
     for (n; n <= games; n += 1) {
         coingame(flips, n);
     }
@@ -19,10 +19,10 @@ int main() {
 }
 
 int coingame(int flips, int gamenum) {
-    int heads = 0, tails = 0, toss = 0, n, total = 0;
+    int heads = 0, tails = 0, toss = 0, n = 1, total = 0;
 
     // Start flipping the 'coin'
-    for (n = 1; n <= flips; n += 1) {
+    for (n; n <= flips; n += 1) {
         toss = rand() % 2;
         if (toss == 0) {
             heads++;

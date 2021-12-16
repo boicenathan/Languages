@@ -7,7 +7,7 @@ func main() {
 	var games, flips int = 5, 1000000
 
 	// Start the games
-	fmt.Printf("Go\n")
+	fmt.Printf("< Go >\n")
 	for i:=0; i < games; i++ {
 		coingame(flips, i)
 	}

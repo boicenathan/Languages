@@ -23,7 +23,7 @@ if __name__ == '__main__':
     # Call the function with the number of games and flips
     games = 5
     flips = 1000000
-    print("Python")
+    print("< Python >")
     for i in range(0, games):
         coingame(flips, i)
     

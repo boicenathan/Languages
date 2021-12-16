@@ -23,7 +23,7 @@ function coingame(flips, gamenum) {
 let i = 0;
 let games = 5;
 let flips = 1000000;
-console.log("JavaScript");
+console.log("< JavaScript >");
 for (i; i < games; i++) {
     console.log(coingame(flips, i));
 }
