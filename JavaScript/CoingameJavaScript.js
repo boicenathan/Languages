@@ -5,7 +5,6 @@ function coingame(flips, gamenum) {
     let tails = 0;
     let i = 0;
     let toss = 0;
-
     // Start the loop
     for (i; i < flips; i++) {
         toss = Math.round(Math.random());

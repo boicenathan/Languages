@@ -5,7 +5,6 @@ import("math/rand"
 func main() {
 	// Declare the number of games and flips per game
 	var games, flips int = 5, 1000000
-
 	// Start the games
 	fmt.Printf("< Go >\n")
 	for i:=0; i < games; i++ {
@@ -15,7 +14,6 @@ func main() {
 
 func coingame(flips int, i int) {
 	var heads, tails, toss int = 0, 0, 0
-
 	// Start flipping the 'coin'
 	for i:=0; i < flips; i++ {
 		toss = rand.Intn(2)
